@@ -1,0 +1,275 @@
+:root {
+    --bg-1: #FF67A6;
+    --bg-2: #FAB1CF;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+body{
+    background-color: var(--bg-2) !important;
+    font-family:'Signika Negative', sans-serif;
+    position: relative;
+}
+
+/* bagian Awal Header */
+
+
+.header{
+    background-color: var(--bg-1);
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20rem;
+    top: 0;
+    z-index: 10;
+}
+.header::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 20rem;
+    background: linear-gradient(0deg, rgb(250,177,207)3%, rgba(255, 255, 255, 0) 25%);
+}
+.navbary{
+    position: fixed;
+    z-index: 30;
+    background-color: var(--bg-1);
+    top: 0;
+    height: auto;
+    align-items: center;
+    padding: .3rem .3rem;
+    margin-bottom: 100px;
+    margin: auto;
+}
+.navbary img{
+    width:  40px;
+    height:  40px;
+    
+}
+.navbary h1{
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-weight: bolder;
+    font-size: 2rem;
+    filter: drop-shadow( 1px 1px .5px #da035c);
+}
+.navbary i{
+    font-size: 40px;
+}
+/* bagian Akhir Header */
+
+
+
+/* Awal document-menu */
+.tools {
+    margin-top: 3rem;
+    width: 90%;
+    padding: 3rem 0;
+    position: relative;
+    z-index: 20;
+}
+.tools .image-des img{
+    width: 40px;
+    height: 40px;
+}
+
+.tools .image-des span{
+    display: inline-block;
+    color: white;
+    font-size: .8rem;
+}
+.tools .image-des{
+    width: 60rem;
+    margin-right: 1px;
+    align-items: center;
+}
+/* Akhir document-menu */
+
+
+
+/* Awal Content */
+
+
+.main {
+    width: 80%;
+    height: auto;
+    position: relative;
+    margin: auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    z-index: 25;
+    margin-top: -100px; 
+    padding: 20px 10px;
+}
+
+.input-search{
+    display: flex;
+    width: 80%;
+    padding: .1rem .2rem;
+    margin-left: 50px;
+}
+.input-search i {
+    color: var(--bg-2);
+}
+
+.input-search input{
+    border-radius: 10px;
+    width: 70%;
+    padding: 6px 10px;
+    background-color: var(--bg-1);
+    color: white;
+    align-items: ce;
+}
+.input-search button {
+    background-color: var(--bg-1);
+    display: inline-block;
+    width: 40px;
+    height: 35px;
+    border-radius: 10px;
+}
+.social{
+    padding: 0 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.social .socialmenu {
+    box-sizing: border-box;
+    font-size: 1.3rem;
+}
+.social .socialmenu a{
+    display: inline-block;
+}
+.social .socialmenu a{
+    margin-left: 7px;
+    font-size: 1.5rem;
+} 
+.social .socialmenu a:nth-child(1) {
+    color: #da035c;
+}
+.social .socialmenu a:nth-child(2) {
+    color: rgb(24, 142, 238) ;
+}
+.social .socialmenu a:nth-child(3) {
+    color: rgb(24, 142, 238) ;
+}
+.social .socialmenu a:nth-child(4) {
+    color: rgb(194, 0, 0) ;
+    border-radius: 5px;
+}
+
+/* Akhir Content */
+
+/* Awal menu */
+.menu{
+    border-radius: 20px;
+    width:  80%;
+    margin: auto;
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+}
+    .menu img{
+        width: 50px;
+        height: 50px;
+    }
+.menu .teks h5{
+    line-height: .5rem;
+}
+.menu .teks span{
+    font-size: small;
+}
+.menu .icons {
+    margin-top: 1rem;
+}
+
+.icons .satu img{
+    margin-top: 1rem;
+}
+.icons .dua img{
+    margin-top: 1rem;
+}
+.icons .tiga img{
+    margin-top: 1rem;
+}
+
+.icons span{
+    font-size: small;
+}
+/* Akhir Menu */
+
+
+
+/* Awal Program */
+
+.Program {
+    width: 80%;
+    height: 387.25px;
+}
+.Program img{
+    width: 50px;
+    height: 50px;
+}
+
+.judul .title span{
+    font-size: small;
+}
+.judul .title h5{
+    line-height: .5rem;
+}
+.akhir {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+.program img{
+    width: 50px;
+    height: 50px;
+}
+.program .title h5{
+    line-height: .5rem;
+}
+.program .title span{
+    font-size: small;
+}
+.program{
+    margin-bottom: 1.3rem;
+}
+/* Akhir Program */
+
+.bebas {
+    margin-bottom: 200px;
+}
+/* akhir footer */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 27;
+    padding: .5rem;
+}
+.footer span{
+    font-size: small;
+}
+.footer a i{
+    font-size: 1.7rem;
+    color: var(--bg-1);
+}
+
+@media (max-width: 390px ) {
+    .social .socialmenu {
+        display: block;
+        margin: auto;
+    }
+
+    .header .tools span{
+        font-size: 10px;
+    }
+}
