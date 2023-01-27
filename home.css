@@ -180,9 +180,7 @@ body{
         width: 50px;
         height: 50px;
     }
-.menu .teks h5{
-    line-height: .5rem;
-}
+
 .menu .teks span{
     font-size: small;
 }
@@ -218,6 +216,7 @@ body{
 }
 .container2 .judul .teks span{
     font-size: small;
+    line-height: .5rem;
 }
 .Program {
     width: 80%;
