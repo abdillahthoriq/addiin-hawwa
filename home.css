@@ -255,10 +255,10 @@ body{
     padding: .5rem;
 }
 .footer span{
-    font-size: small;
+    font-size: .5rem;
 }
 .footer a i{
-    font-size: 1.7rem;
+    font-size: 1rem;
     color: var(--bg-1);
 }
 
