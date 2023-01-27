@@ -108,7 +108,6 @@ body{
     background-color: #fff;
     z-index: 25;
     margin-top: -100px; 
-    margin-bottom: 150px;
     padding: 20px 10px;
 }
 
@@ -209,14 +208,17 @@ body{
 
 
 /* Awal Program */
-
+.container2 .judul img{
+    width: 30px;
+    height: 30px;
+}
 .Program {
     width: 80%;
     height: 387.25px;
 }
-.Program img{
-    width: 50px;
-    height: 50px;
+.akhir .program img{
+    width: 30px;
+    height: 30px;
 }
 
 .judul .title span{
