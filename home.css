@@ -60,6 +60,7 @@ body{
     font-weight: bolder;
     font-size: 2rem;
     filter: drop-shadow( 1px 1px .5px #da035c);
+    -webkit-filter: drop-shadow( 1px 1px .5px #da035c);
 }
 .navbary i{
     font-size: 30px;
@@ -204,7 +205,9 @@ body{
 /* Akhir Menu */
 
 
-
+.container2 .judul .teks{
+    margin: 0 .5rem;
+}
 /* Awal Program */
 .container2 .judul img{
     width: 25px;
