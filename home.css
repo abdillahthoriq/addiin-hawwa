@@ -44,13 +44,21 @@ body{
     top: 0;
     height: 52px;
     align-items: center;
-    padding: .3rem .3rem;
+    padding: .3rem 1rem;
     margin-bottom: 100px;
+}
+.navbary .menu-hamburger {
+    width: 20%;
+    background-color: aqua;
 }
 .navbary img{
     width:  30px;
     height:  30px;
     
+}
+.navbary .menu-hamburger .foto-header{
+    width: 20px;
+    height: 20px;
 }
 .navbary h5{
     font-family: 'Signika Negative', sans-serif;
